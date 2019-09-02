@@ -1,18 +1,53 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <Header/>
+    <div class="container">
+      <b-jumbotron class="jumbotron">
+        <img src="../assets/images/rishi-shah.jpg" class="main-img">
+        <h3>Programmer.</h3>
+        <h4>Forever a student!</h4>
+        <b-button class="pill" href="#projects">Projects</b-button>
+        <b-button class="pill" href="#skills">Skills</b-button>
+      </b-jumbotron>
+      <Projects id="projects"/>
+      <Skills id="skills" class="skills" />
+      <Social />
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import Header from '../components/Header'
+import Skills from '../components/Skills'
+import Projects from '../components/Projects'
+import Social from '../components/Social'
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    Header,
+    Projects,
+    Skills,
+    Social
   }
 }
 </script>
+
+<style scoped>
+.main-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.jumbotron {
+  background-color: #fff
+}
+.pill {
+  background-color: #424242;
+  margin: 3px 5px;
+}
+.skills {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+</style>
