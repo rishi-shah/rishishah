@@ -4,7 +4,9 @@
     <div class="container">
       <b-jumbotron class="jumbotron">
         <img src="../assets/images/rishi-shah.jpg" class="main-img">
-        <h3>A Software developer based in Mumbai.</h3>
+        <br>
+        <h3 class="lead-line">A Software developer based in Mumbai.</h3>
+        <br>
         <b-button class="pill" href="#projects">Projects</b-button>
         <b-button class="pill" href="#skills">Skills</b-button>
       </b-jumbotron>
@@ -49,4 +51,8 @@ export default {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.lead-line {
+  margin: 8px 0;
+}
+
 </style>
