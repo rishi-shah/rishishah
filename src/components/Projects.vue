@@ -3,9 +3,9 @@
       <h2>Projects</h2>
       <br>
       <b-card-group deck>
-        <b-card title="HDFC Rewardz">
+        <b-card title="Bank Rewardz System">
           <b-card-text>
-            A Portal where bank customers can redeem their reward points for services such as flight, hotel, movie, recharge bookings. <br> <b> Team Size - 4</b>
+            A Portal where customers of one of the largest private sector banks can redeem their reward points for services such as flight, hotel, movie, recharge bookings. <br> <b> Team Size - 4</b>
           </b-card-text>
         </b-card>
 
