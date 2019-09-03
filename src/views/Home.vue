@@ -4,8 +4,7 @@
     <div class="container">
       <b-jumbotron class="jumbotron">
         <img src="../assets/images/rishi-shah.jpg" class="main-img">
-        <h3>Programmer.</h3>
-        <h4>Forever a student!</h4>
+        <h3>A Software developer based in Mumbai.</h3>
         <b-button class="pill" href="#projects">Projects</b-button>
         <b-button class="pill" href="#skills">Skills</b-button>
       </b-jumbotron>
